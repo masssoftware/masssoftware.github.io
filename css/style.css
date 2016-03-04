@@ -99,27 +99,10 @@ section {
     color: #fff;
 }
 
-.icon1 {
-	background: url(../img/icon1.png) no-repeat left center;
-	margin: 25px 0 0;
-    padding: 0 0 0 70px;
-    text-align: left;
-    display: inline-block;
-}
-
-.icon2 {
-	background: url(../img/icon2.png) no-repeat left center;
-	margin: 25px 0 0;
-    padding: 0 0 0 70px;
-    text-align: left;
-    display: inline-block;
-}
-
-.icon3 {
-	background: url(../img/icon3.png) no-repeat left center;
-	margin: 25px 0 0;
-    padding: 0 0 0 70px;
-    text-align: left;
+.feature {
+	/*margin: 25px 0 0;
+    padding: 0 0 0 70px;*/
+    text-align: center;
     display: inline-block;
 }
 
@@ -434,7 +417,11 @@ footer p {
 	font-size: 1.4rem;
 	color: #696969;    
 }
-
+@media screen and (min-width: 991px) {
+    .feature {
+        text-align: left;
+    }
+}
 /*finished footer*/
 
 
